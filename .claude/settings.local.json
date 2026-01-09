@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)",
+      "Bash(Get-Process)",
+      "Bash(Where-Object {$_ProcessName -like \"*Unity*\"})",
+      "Bash(Format-Table ProcessName, Id, MainWindowTitle -AutoSize)",
+      "Bash(mcp execute unity find_gameobjects:*)",
+      "Bash(dir:*)",
+      "Bash(where:*)",
+      "Bash(powershell -Command:*)"
+    ]
+  }
+}
